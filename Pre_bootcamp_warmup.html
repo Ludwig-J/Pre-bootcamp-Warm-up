@@ -17,13 +17,19 @@
   <fieldset>
   <div class="search-bar">
   <label for="where">Where:</label>
-  <input type="text" name="where" id="where" />
+  <input type="text" name="where" id="where" placeholder="Search Destinations" />
   <label for="check-in">Check-in</label>
-  <input type="text" name="Check-in" id="Check-in" />
+  <input type="date" name="birth-date" id="birth-date" />
     <label for="where">Check-out:</label>
-    <input type="text" name="Check-out" id="Check-out" />
+    <input type="date" name="birth-date" id="birth-date" />
     <label for="check-in">Who:</label>
-    <input type="text" name="who" id="who" />
+      <select name="who" id="who" required>
+        <option value="">Select an option</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4+">4+</option>
+      </select>
     <button>Search</button>
   </div>
 </fieldset>
