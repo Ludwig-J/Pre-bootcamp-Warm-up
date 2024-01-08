@@ -9,8 +9,9 @@ header {
   }
 h1 {
     text-align: center;
-    width: 80%;
+    max-width: 80%;
 }
 #logo {
-    width: max(100px, 18vw);
+    width: 350px;
+    height: 80px;
   }
