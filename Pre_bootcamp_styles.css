@@ -7,13 +7,14 @@ header {
     position: fixed;
     top: 0;
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 h1 {
     text-align: center;
     max-width: 80%;
 }
 #logo {
-    width: 350px;
+    width: 100px;
     height: 80px;
     cursor: pointer;
   }
