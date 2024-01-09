@@ -43,8 +43,12 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin: 0 auto;
     padding: 10px 10px;
     cursor: pointer;
     max-width: fit-content;
+  }
+
+  .icon {
+    height: 30px;
+    width: 30px;
   }
