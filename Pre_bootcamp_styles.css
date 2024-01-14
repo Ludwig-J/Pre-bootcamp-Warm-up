@@ -3,8 +3,7 @@ header {
     height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: fixed;
+    align-items: center; 
     top: 0;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,10 +18,7 @@ h1 {
     height: 80px;
     cursor: pointer;
   }
-  .gap {
-    padding-top: 60px;
-  }
-  
+
 #search-bar {
     border-style:ridge;
     margin: 20px 0; 
@@ -59,8 +55,8 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     gap: 16px;
     max-width: 100%;
     margin: 0 auto;
@@ -82,3 +78,22 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.inspiration {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul.inspiration {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  background-color: white
+}
+
+
+ul.inspiration li button {
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px; 
+}
