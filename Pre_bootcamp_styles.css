@@ -109,8 +109,6 @@ ul.inspiration li button {
 
 ul.locations {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex: 0 0 calc(40% - 20px);
   
@@ -121,7 +119,31 @@ ul.locations li button {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  margin-right: 10px; 
+  margin-right: 50px; 
   box-sizing: border-box;
   
+}
+.locations {
+  text-align: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+}
+
+.locations ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.locations li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.locations button {
+  padding: 10px 10px;
+  font-size: 14px;
+  cursor: pointer;
 }
