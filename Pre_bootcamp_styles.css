@@ -164,8 +164,16 @@ font-size: 14px;
 footer {
   border-top: 1px solid #505050;
   display: flex;
-  justify-content: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  word-spacing: 10px;
+  word-spacing: 15px;
 }
 
+.right {
+  display:flex;
+}
+
+.right img {
+  width: 38px;
+  margin-right: 10px; 
+  margin-left: 100px;
+}
