@@ -160,3 +160,12 @@ font-size: 14px;
   box-sizing: border-box;
   cursor: pointer;
 }
+
+footer {
+  border-top: 1px solid #505050;
+  display: flex;
+  justify-content: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 10px;
+}
+
