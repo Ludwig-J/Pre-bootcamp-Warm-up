@@ -43,15 +43,16 @@ login {
   }
 
   .search-bar-button {
-  background-color: rgb(247, 52, 4);
-  border-radius: 50px; 
-  }
-
-
-  .search-bar-button img{
-    width:15px;
-    height:15px;
-  }
+    background-color: rgb(247, 52, 4);
+    border-radius: 50px; 
+    width: 30px;
+    height: 30px;
+    }
+  
+    .search-bar-button img{
+      width:15px;
+      height:15px;
+    }
 
   .property-type {
     display: flex;
