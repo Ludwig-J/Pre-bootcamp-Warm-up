@@ -23,14 +23,14 @@ login {
  
 }
 
-#logo {
+.logo {
     width: 180px;
     height: 50px;
     cursor: pointer;
     padding: 20px;
   }
 
-#search-bar {
+.search-bar {
     border-style:ridge;
     padding: 20px; 
     border-top: 1px solid grey; 
@@ -42,7 +42,18 @@ login {
     margin: 0 auto;
   }
 
-  #property-type {
+  .search-bar-button {
+  background-color: rgb(247, 52, 4);
+  border-radius: 50px; 
+  }
+
+
+  .search-bar-button img{
+    width:15px;
+    height:15px;
+  }
+
+  .property-type {
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: ridge;
