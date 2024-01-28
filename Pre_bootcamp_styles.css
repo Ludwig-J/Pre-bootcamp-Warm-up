@@ -3,6 +3,7 @@ header {
     height: 50px;
     display: flex;
     justify-content:space-between;
+    padding-bottom: 20px;
     align-items: center; 
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,7 +24,7 @@ login {
 }
 
 #logo {
-    width: 200px;
+    width: 180px;
     height: 50px;
     cursor: pointer;
     padding: 20px;
@@ -31,18 +32,20 @@ login {
 
 #search-bar {
     border-style:ridge;
-    margin: 20px 0; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
+    padding: 20px; 
+    border-top: 1px solid grey; 
+    border-radius: 50px; 
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-bottom: 2px solid #505050;
+    border-bottom: 1px solid #505050;
+    width: 900px;
+    margin: 0 auto;
   }
+
   #property-type {
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style:ridge;
+    border-style: ridge;
     border: 1px solid #ccc;
     flex-direction: row;
     flex-wrap: wrap;
