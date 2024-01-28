@@ -3,7 +3,7 @@ header {
     height: 50px;
     display: flex;
     justify-content:space-between;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     align-items: center; 
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,9 +13,6 @@ header {
     max-width: 80%;
 }
 
-login {
- cursor: pointer;
-}
 
 .login_icon {
   width: 50px;
@@ -33,46 +30,43 @@ login {
 .search-bar {
     border-style:ridge;
     padding: 20px; 
-    border-top: 1px solid grey; 
     border-radius: 50px; 
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-bottom: 1px solid #505050;
+    border: 1px solid #505050;
     width: 900px;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .search-bar-button {
-  background-color: rgb(247, 52, 4);
-  border-radius: 50px; 
-  }
-
-
-  .search-bar-button img{
-    width:15px;
-    height:15px;
-  }
+    background-color: rgb(247, 52, 4);
+    border-radius: 50px; 
+    width: 30px;
+    height: 30px;
+    }
+  
+    .search-bar-button img{
+      width:15px;
+      height:15px;
+    }
 
   .property-type {
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style: ridge;
-    border: 1px solid #ccc;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 15px;
-    padding-block: 20px;
+    border: 0px solid #ccc;
+    border-top: 1px solid #c2bebe;
+    justify-content:space-around;
     cursor: pointer;
-    max-width:max-content;
-    width: 100%;
+    margin: 0 auto;
 
   }
 
   .icon {
     height: 35px;
     width: 35px;
+    display: block;
+    margin: 0 auto;
   }
 
   .gallery {
