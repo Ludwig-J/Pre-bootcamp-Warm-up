@@ -98,13 +98,15 @@ header {
 
 .inspiration {
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color: whitesmoke;
+ width: 100%;
 } 
 
 ul.inspiration {
  list-style: none;
-  padding: 50;
   display: flex;
-  background-color: white; 
+  background-color: whitesmoke;
+  margin: 0 auto;
 }
 
 
@@ -113,21 +115,20 @@ ul.inspiration li button {
   background-color: whitesmoke;
   border: none;
   cursor: pointer;
-  font-size: 20px;
-  margin-right: 30px; 
-  
+  font-size: 18px;
+  margin: 0 auto;
 }
 
 .locations {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: whitesmoke;
   cursor: pointer;
-
 }
 
 ul.locations {
   list-style: none;
   display: flex; 
+  
 }
 
 ul.locations li button {
@@ -136,39 +137,28 @@ ul.locations li button {
   cursor: pointer;
   font-size: 15px;
   margin-right: 80px; 
-  box-sizing: border-box;
   
+
 }
 .locations {
   text-align: center;
   width: 100%;
+  
 }
 
-.button-row {
-  display: flex;
-  justify-content: center;
-}
-
-.locations ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.locations li {
-  display: inline-block;
-  margin: 10px;
-}
-
-.locations button {
-  padding: 10px 10px;
-  font-size: 14px;
-  cursor: pointer;
+.locations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 10px;
 }
 
 .support {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 border-top: 1px solid #505050;
 font-size: 14px;
+margin: 0 auto;
+width: 100%;
 }
 
 .column {
@@ -177,21 +167,26 @@ font-size: 14px;
   padding: 25px;
   box-sizing: border-box;
   cursor: pointer;
+  
 }
 
 footer {
   border-top: 1px solid #505050;
   display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  word-spacing: 15px;
+  word-spacing: 10px;
+  position: relative;
 }
 
 .right {
-  display:flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
 }
 
 .right img {
-  width: 38px;
-  margin-right: 10px; 
-  margin-left: 100px;
+  width: 40px;
+  margin-right: 20px;
 }
